@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# YOLO weights & videos (auto-downloaded / too large for git)
+*.pt
+*.keras
+*.h5
+*.mp4
+*.avi
+*.mov
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+sample_videos/*
+!sample_videos/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
